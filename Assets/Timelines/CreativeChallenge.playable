@@ -456,25 +456,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2155,10 +2137,19 @@ MonoBehaviour:
       m_Root: 5
       m_Leaf: /Users/megano/Desktop
       m_ForceAssetFolder: 0
+      m_AbsolutePath: 
     m_FileName: movie_<Scene>_<Date>_<Take>
   outputFormat: 0
   videoBitRateMode: 2
   captureAlpha: 0
+  containerFormatSelected: 0
+  encoderSelected: 0
+  encoderPresetSelected: 0
+  encoderPresetSelectedName: 
+  encoderPresetSelectedOptions: 
+  encoderPresetSelectedSuffixes: 
+  encoderColorDefinitionSelected: 0
+  encoderCustomOptions: 
   m_ImageInputSelector:
     m_Selected: gameViewInputSettings
     gameViewInputSettings:
@@ -2216,6 +2207,44 @@ MonoBehaviour:
       flipFinalOutput: 0
   m_AudioInputSettings:
     preserveAudio: 1
+  _accumulationSettings:
+    rid: 9101788439730978817
+  references:
+    version: 2
+    RefIds:
+    - rid: 9101788439730978817
+      type: {class: AccumulationSettings, ns: , asm: Unity.Recorder.Editor}
+      data:
+        captureAccumulation: 0
+        samples: 1
+        shutterInterval: 1
+        shutterProfileType: 0
+        shutterProfileCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        shutterFullyOpen: 0.25
+        shutterBeginsClosing: 0.75
 --- !u!74 &-4659850029847881119
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -6431,6 +6460,7 @@ MonoBehaviour:
   m_FixedDuration: 61.124999999999
   m_EditorSettings:
     m_Framerate: 24
+    m_ScenePreview: 1
   m_DurationMode: 1
   m_MarkerTrack: {fileID: -1818304615655994845}
 --- !u!114 &36271605998968427
@@ -6882,10 +6912,19 @@ MonoBehaviour:
       m_Root: 5
       m_Leaf: /Users/megano/Desktop
       m_ForceAssetFolder: 0
+      m_AbsolutePath: 
     m_FileName: movie
   outputFormat: 0
   videoBitRateMode: 2
   captureAlpha: 0
+  containerFormatSelected: 0
+  encoderSelected: 0
+  encoderPresetSelected: 0
+  encoderPresetSelectedName: 
+  encoderPresetSelectedOptions: 
+  encoderPresetSelectedSuffixes: 
+  encoderColorDefinitionSelected: 0
+  encoderCustomOptions: 
   m_ImageInputSelector:
     m_Selected: gameViewInputSettings
     gameViewInputSettings:
@@ -6943,6 +6982,44 @@ MonoBehaviour:
       flipFinalOutput: 0
   m_AudioInputSettings:
     preserveAudio: 1
+  _accumulationSettings:
+    rid: 9101788439730978818
+  references:
+    version: 2
+    RefIds:
+    - rid: 9101788439730978818
+      type: {class: AccumulationSettings, ns: , asm: Unity.Recorder.Editor}
+      data:
+        captureAccumulation: 0
+        samples: 1
+        shutterInterval: 1
+        shutterProfileType: 0
+        shutterProfileCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        shutterFullyOpen: 0.25
+        shutterBeginsClosing: 0.75
 --- !u!114 &1472888856008872057
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9071,7 +9148,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
-  m_Name: MovieRecorderSettings
+  m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
   take: 1
@@ -9081,10 +9158,19 @@ MonoBehaviour:
       m_Root: 0
       m_Leaf: /Recordings
       m_ForceAssetFolder: 0
+      m_AbsolutePath: 
     m_FileName: Rendered_Movie_take-<Take>
   outputFormat: 0
   videoBitRateMode: 2
   captureAlpha: 0
+  containerFormatSelected: 0
+  encoderSelected: 0
+  encoderPresetSelected: 0
+  encoderPresetSelectedName: 
+  encoderPresetSelectedOptions: 
+  encoderPresetSelectedSuffixes: 
+  encoderColorDefinitionSelected: 0
+  encoderCustomOptions: 
   m_ImageInputSelector:
     m_Selected: gameViewInputSettings
     gameViewInputSettings:
@@ -9142,6 +9228,44 @@ MonoBehaviour:
       flipFinalOutput: 0
   m_AudioInputSettings:
     preserveAudio: 1
+  _accumulationSettings:
+    rid: 9101788439730978816
+  references:
+    version: 2
+    RefIds:
+    - rid: 9101788439730978816
+      type: {class: AccumulationSettings, ns: , asm: Unity.Recorder.Editor}
+      data:
+        captureAccumulation: 0
+        samples: 1
+        shutterInterval: 1
+        shutterProfileType: 0
+        shutterProfileCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        shutterFullyOpen: 0.25
+        shutterBeginsClosing: 0.75
 --- !u!114 &5814231004558203110
 MonoBehaviour:
   m_ObjectHideFlags: 1
